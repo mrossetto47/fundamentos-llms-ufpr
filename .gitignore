@@ -221,3 +221,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Checkpoints e pesos de modelos
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+checkpoints/
+
+# Arquivos locais com credenciais
+.env.*
+!.env.example
